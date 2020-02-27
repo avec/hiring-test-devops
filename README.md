@@ -1,11 +1,11 @@
-# Hiring Test - DevOps
+# DevOps Challenge
 
 No diretório [app](./app) temos uma aplicação em NodeJS que responde
 o clima atual de uma cidade, através da rota `/search?q=CIDADE`, rodando por padrão na porta 8000.
 
-O teste consiste em fornecer uma solução completa para rodar essa aplicação na **AWS**, com foco em IaC, escalabilidade e CI / CD. **Alta performance é imprescindível!**
+Fornecer uma solução completa para rodar essa aplicação na **AWS**, com foco em IaC, escalabilidade e CI / CD. **Alta performance é imprescindível!**
 
-O teste deverá ser entregue **"pronto para uso"**, onde poderemos facilmente realizar o deploy para um stage `dev` ou para `production`.
+O projeto deverá ser entregue **"pronto para uso"**, onde poderemos facilmente realizar o deploy para um stage `dev` ou para `production`.
 
 - A aplicação deverá rodar em um container docker, utilizando o [Dockerfile](./app/Dockerfile) já existente.
 - A infraestrutura deverá ser criada com alguma ferramenta de IaC (Terraform, Cloudformation, Ansible, Pulumi, CDK, ...).
